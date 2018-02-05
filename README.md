@@ -11,3 +11,5 @@
 4.当然还有最重要的将主界面更换为英文显示，原先的字眼太显眼，为防止被敌军发现
 
 以上
+
+! [layout] (DingdingHelper/layout.png)；
