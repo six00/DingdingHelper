@@ -12,4 +12,4 @@
 
 以上
 
-! [layout] (DingdingHelper/layout.png)；
+! [layout] (DingdingHelper/layout.png)
