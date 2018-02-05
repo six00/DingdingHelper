@@ -33,7 +33,7 @@ public class DingHelperUtils {
         String[] nm = nTime.split(":");
         //截取手机号码后四位作为通知id
         int id = Integer.parseInt(accountEntity.getAccount().substring(accountEntity.getAccount().length() - 4, accountEntity.getAccount().length()));
-        for (int i = 1; i <= 6; i++) {// by six
+        for (int i = 1; i <= 5; i++) {// by six
 //            int tm = isAdd() ? Integer.parseInt(hm[1]) + mRandom.nextInt(5) : Integer.parseInt(hm[1]) - mRandom.nextInt(5);
             TimingManagerUtil.setTiming(context, 2, Integer.parseInt(hm[0]), Integer.parseInt(hm[1]), id + i, i);
             Log.i("Infoss", "闹钟ID:" + (id + i) + "   hour:" + Integer.parseInt(hm[0]) + "   min: " + Integer.parseInt(hm[1]) + "   week:" + i);

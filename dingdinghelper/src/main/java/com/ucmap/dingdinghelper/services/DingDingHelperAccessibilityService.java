@@ -124,7 +124,7 @@ public class DingDingHelperAccessibilityService extends AccessibilityService {
     private static final String GO_TO_WORK = "上班打卡";
 
     private static final String ALERT_DIALOG_WINDOW = "android.app.AlertDialog";
-
+////测试
     /**
      * 我的ID
      */
